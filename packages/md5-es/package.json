@@ -1,6 +1,6 @@
 {
   "name": "md5-es",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "FASTEST Cryptographic hash library producing a 128-bit (16-byte) hash value",
   "main": "./build/md5-es.min.js",
   "scripts": {
