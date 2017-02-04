@@ -1,0 +1,19 @@
+{
+  "name": "es-crypto",
+  "version": "1.0.0",
+  "description": "Cryptographic hash libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logotype/es-crypto.git"
+  },
+  "author": "Victor Norgren <victor@logotype.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logotype/es-crypto/issues"
+  },
+  "homepage": "https://github.com/logotype/es-crypto#readme"
+}

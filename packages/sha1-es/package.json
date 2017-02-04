@@ -1,0 +1,42 @@
+{
+  "name": "sha1-es",
+  "version": "1.5.1",
+  "description": "Cryptographic hash library producing a 160-bit (20-byte) hash value",
+  "main": "./build/sha1-es.min.js",
+  "scripts": {
+    "lint": "eslint *.babel.js src test",
+    "build": "rimraf build && webpack -p",
+    "perf": "babel-node perf/Perf.js",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logotype/sha1-es.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "eslint-plugin-babel": "^4.0.1",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.1",
+    "yargs": "^6.6.0"
+  },
+  "keywords": [
+    "SHA1",
+    "SHA-1",
+    "ES2015"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logotype/sha1-es/issues"
+  },
+  "homepage": "https://github.com/logotype/sha1-es#readme"
+}
