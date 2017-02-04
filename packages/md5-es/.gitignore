@@ -1,7 +1,5 @@
-build/
 .idea/
 node_modules/
 *.iml
 *.log
-mountain-muse.iml
 .DS_Store

@@ -13,13 +13,13 @@ const plugins = optimizeMinimize ? [
 
 module.exports = {
     entry: {
-        'md5-es': ['./src/MD5.js']
+        'sha1-es': ['./src/SHA1.js']
     },
     target: 'node',
     output: {
         path: './build',
         filename: optimizeMinimize ? '[name].min.js' : '[name].js',
-        library: 'md5-es',
+        library: 'sha1-es',
         libraryTarget: 'umd'
     },
     module: {
