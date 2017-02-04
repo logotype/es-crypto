@@ -1,6 +1,6 @@
 {
   "name": "sha512-es",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Cryptographic hash library producing a 512-bit (64-byte) hash value",
   "main": "./build/sha512-es.min.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/logotype/sha512-es.git"
+    "url": "https://github.com/logotype/es-crypto.git"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
@@ -38,7 +38,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/logotype/sha512-es/issues"
+    "url": "https://github.com/logotype/es-crypto/issues"
   },
-  "homepage": "https://github.com/logotype/sha512-es#readme"
+  "homepage": "https://github.com/logotype/es-crypto#readme"
 }
