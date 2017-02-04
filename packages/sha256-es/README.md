@@ -1,7 +1,7 @@
 # sha256-es
 Cryptographic hash library producing a 256-bit (32-byte) hash value
 
-[![Build Status](https://travis-ci.org/logotype/sha256-es.svg?branch=master)](https://travis-ci.org/logotype/sha256-es) [![NPM Version](https://badge.fury.io/js/sha256-es.svg)](http://badge.fury.io/js/sha256-es)
+[![Build Status](https://travis-ci.org/logotype/es-crypto.svg?branch=master)](https://travis-ci.org/logotype/es-crypto) [![NPM Version](https://badge.fury.io/js/sha256-es.svg)](http://badge.fury.io/js/sha256-es)
 
 node
 ----

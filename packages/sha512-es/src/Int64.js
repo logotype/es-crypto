@@ -1,6 +1,6 @@
 /*!
  * sha512-es
- * https://github.com/logotype/sha512-es.git
+ * https://github.com/logotype/es-crypto.git
  *
  * Copyright 2017 Victor Norgren
  * Released under the MIT license

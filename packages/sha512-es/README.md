@@ -1,7 +1,7 @@
 # sha512-es
 Cryptographic hash library producing a 512-bit (64-byte) hash value
 
-[![Build Status](https://travis-ci.org/logotype/sha512-es.svg?branch=master)](https://travis-ci.org/logotype/sha512-es) [![NPM Version](https://badge.fury.io/js/sha512-es.svg)](http://badge.fury.io/js/sha512-es)
+[![Build Status](https://travis-ci.org/logotype/es-crypto.svg?branch=master)](https://travis-ci.org/logotype/es-crypto) [![NPM Version](https://badge.fury.io/js/sha512-es.svg)](http://badge.fury.io/js/sha512-es)
 
 node
 ----

@@ -1,6 +1,6 @@
 /*!
  * sha256-es
- * https://github.com/logotype/sha256-es.git
+ * https://github.com/logotype/es-crypto.git
  *
  * Copyright 2017 Victor Norgren
  * Released under the MIT license

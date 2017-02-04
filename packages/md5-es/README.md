@@ -1,7 +1,7 @@
 # md5-es
 FASTEST Cryptographic hash library producing a 128-bit (16-byte) hash value
 
-[![Build Status](https://travis-ci.org/logotype/md5-es.svg?branch=master)](https://travis-ci.org/logotype/md5-es) [![NPM Version](https://badge.fury.io/js/md5-es.svg)](http://badge.fury.io/js/md5-es)
+[![Build Status](https://travis-ci.org/logotype/es-crypto.svg?branch=master)](https://travis-ci.org/logotype/es-crypto) [![NPM Version](https://badge.fury.io/js/md5-es.svg)](http://badge.fury.io/js/md5-es)
 
 node
 ----

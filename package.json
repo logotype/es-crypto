@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/logotype/es-crypto.git"
   },
+  "devDependencies": {
+    "lerna": "2.0.0-beta.36"
+  },
   "author": "Victor Norgren <victor@logotype.se>",
   "license": "MIT",
   "bugs": {

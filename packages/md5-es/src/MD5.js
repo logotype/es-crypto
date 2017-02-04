@@ -1,6 +1,6 @@
 /*!
  * md5-es
- * https://github.com/logotype/md5-es.git
+ * https://github.com/logotype/es-crypto.git
  *
  * Copyright 2017 Victor Norgren
  * Released under the MIT license
