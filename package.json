@@ -18,6 +18,7 @@
     "babel-core": "^6.22.1",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^3.15.0",
     "lerna": "2.0.0-beta.36",
     "mocha": "^3.2.0",
     "webpack": "^2.2.1"
