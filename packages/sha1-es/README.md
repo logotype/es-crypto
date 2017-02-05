@@ -1,7 +1,7 @@
 # sha1-es
 Cryptographic hash library producing a 160-bit (20-byte) hash value
 
-[![Build Status](https://travis-ci.org/logotype/es-crypto.svg?branch=master)](https://travis-ci.org/logotype/es-crypto) [![NPM Version](https://badge.fury.io/js/sha1-es.svg)](http://badge.fury.io/js/sha1-es)
+[![npm](https://img.shields.io/npm/v/sha1-es.svg?maxAge=2592000)](https://www.npmjs.com/package/sha1-es) [![Dependency Status](https://api.travis-ci.org/logotype/es-crypto.svg?path=packages/sha1-es)](https://travis-ci.org/logotype/es-crypto?path=packages/sha1-es)
 
 node
 ----
