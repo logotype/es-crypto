@@ -1,0 +1,12 @@
+git:
+  depth: 10
+sudo: false
+language: node_js
+cache:
+  directories:
+  - node_modules
+script:
+  - npm run eslint
+  - npm run build
+  - npm run perf
+  - npm run test

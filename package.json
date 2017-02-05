@@ -4,14 +4,23 @@
   "description": "Cryptographic hash libraries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint **/*/src **/*/test",
+    "build": "cd packages/md5-es/ && rimraf build && webpack -p && cd ../sha1-es/ && rimraf build && webpack -p && cd ../sha256-es/ && rimraf build && webpack -p && cd ../sha512-es/ && rimraf build && webpack -p",
+    "perf": "babel-node performance-tests.js",
+    "test": "mocha --compilers js:babel-core/register packages/md5-es/test packages/sha1-es/test packages/sha256-es/test packages/sha512-es/test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/logotype/es-crypto.git"
   },
   "devDependencies": {
-    "lerna": "2.0.0-beta.36"
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "lerna": "2.0.0-beta.36",
+    "mocha": "^3.2.0",
+    "webpack": "^2.2.1"
   },
   "author": "Victor Norgren <victor@logotype.se>",
   "license": "MIT",
