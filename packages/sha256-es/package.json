@@ -1,6 +1,6 @@
 {
   "name": "sha256-es",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Cryptographic hash library producing a 256-bit (32-byte) hash value",
   "main": "./build/sha256-es.min.js",
   "scripts": {
