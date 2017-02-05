@@ -1,6 +1,6 @@
 {
   "name": "sha512-es",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Cryptographic hash library producing a 512-bit (64-byte) hash value",
   "main": "./build/sha512-es.min.js",
   "scripts": {
