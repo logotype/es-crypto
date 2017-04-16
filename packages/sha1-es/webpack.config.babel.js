@@ -1,3 +1,5 @@
+import path from 'path';
+
 import webpack from 'webpack';
 import yargs from 'yargs';
 
@@ -6,13 +8,13 @@ const nodeEnv = optimizeMinimize ? 'production' : 'development';
 
 export default {
     entry: {
-        'sha256-es': ['./src/SHA256.js']
+        'sha1-es': ['./src/sha1.js']
     },
     target: 'node',
     output: {
         path: path.join(__dirname, '/build'),
         filename: optimizeMinimize ? '[name].min.js' : '[name].js',
-        library: 'sha256-es',
+        library: 'sha1-es',
         libraryTarget: 'umd'
     },
     module: {
