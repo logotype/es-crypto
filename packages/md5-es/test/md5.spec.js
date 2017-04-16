@@ -1,4 +1,4 @@
-import MD5 from './../src/MD5';
+import MD5 from './../src/md5';
 const assert = require('assert');
 
 describe('MD5', () => {

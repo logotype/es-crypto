@@ -1,4 +1,4 @@
-import SHA512 from './../src/SHA512';
+import SHA512 from './../src/sha512';
 const assert = require('assert');
 
 describe('SHA512', () => {
