@@ -1,6 +1,6 @@
 {
   "name": "sha1-es",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Cryptographic hash library producing a 160-bit (20-byte) hash value",
   "main": "./build/sha1-es.min.js",
   "scripts": {
