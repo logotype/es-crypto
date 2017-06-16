@@ -1,5 +1,11 @@
 {
   "env": {
+    "test": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ],
+    },
     "development": {
       "presets": [
         "es2015",
