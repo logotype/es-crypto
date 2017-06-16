@@ -1,13 +1,13 @@
 {
   "name": "sha512-es",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Cryptographic hash library producing a 512-bit (64-byte) hash value",
   "main": "./build/sha512-es.min.js",
   "scripts": {
     "lint": "eslint *.babel.js src test",
     "build": "rimraf build && webpack -p",
     "perf": "babel-node perf/Perf.js",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,19 +15,18 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.2",
-    "babel-loader": "^6.2.10",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "chai": "^3.5.0",
-    "eslint": "^3.19.0",
+    "eslint": "^4.0.0",
     "eslint-plugin-babel": "^4.0.1",
+    "jest": "^20.0.4",
     "json-loader": "^0.5.4",
-    "mocha": "^3.2.0",
     "rimraf": "^2.5.4",
-    "webpack": "^2.4.1",
-    "yargs": "^7.1.0"
+    "webpack": "^2.6.1",
+    "yargs": "^8.0.2"
   },
   "keywords": [
     "SHA512",
